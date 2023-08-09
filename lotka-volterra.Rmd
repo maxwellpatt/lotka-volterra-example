@@ -52,6 +52,8 @@ parameters <- c(alpha = .75, beta = 0.8, delta = 0.5, gamma = 1)
 # Recall: x = prey, y = predator
 init_cond <- c(x = 10, y = 7)
 
+# testing git status
+
 # Prepare the series of differential equations as a function: 
 lk_equations <- function(time, init_cond, parameters) {
   with(as.list(c(init_cond, parameters)), {
